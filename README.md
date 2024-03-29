@@ -1,8 +1,8 @@
 In this assignment, you will be building a training pipeline along with the model for the dataset
-provided here. The dataset contains images containing paperclips. Your task is to predict the
+provided  [here](https://www.kaggle.com/datasets/jeffheaton/count-the-paperclips/data). The dataset contains images containing paperclips. Your task is to predict the
 number of paperclips present in the image. [M.M : 25 Marks]
 1. Implement a data loader which does the following -
-Takes the three inputs [GitHub Pages](https://pages.github.com/). - Python list of train image ids, train.csv and path to the images
+Takes the three inputs . - Python list of train image ids, train.csv and path to the images
 folder. Based on the input image id/index, read the corresponding image from the image
 folder and the label from the .csv file.
 a) Convert the image to tensor and print the shape of the image. [1 Marks]
